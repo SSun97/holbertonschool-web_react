@@ -1,0 +1,37 @@
+:root {
+  --main-color: red;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  font-size: 20px;
+  border-bottom: 3px solid var(--main-color);
+}
+
+.App-header img {
+  width: 200px;
+}
+
+.App-body {
+  margin: 50px;
+}
+
+.App-footer {
+  border-top: 3px solid var(--main-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  font-style: italic;
+}
+label {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+button {
+  margin-right: 5px;
+  margin-left: 10px;
+}
